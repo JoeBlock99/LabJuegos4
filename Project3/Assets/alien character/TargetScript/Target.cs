@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
+    public GameObject alien;
     public float health = 50f;
     public void TakeDamage(float amount)
     {
@@ -15,7 +16,7 @@ public class Target : MonoBehaviour
     }
     void Die()
     {
-        Destroy(gameObject);
+        Destroy(alien);
     }
     // Start is called before the first frame update
     void Start()

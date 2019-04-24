@@ -17,7 +17,7 @@ public class Escape : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            SceneManager.LoadScene("Tapp");
+            SceneManager.LoadScene("Tap");
         }
     }
 }
